@@ -1114,7 +1114,7 @@ textarea {
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
   .holiday__search__button {
     margin: 0 auto 40px;
   }
@@ -1206,7 +1206,7 @@ textarea {
     margin-bottom: 10px;
   }
   .holiday__search__button {
-    margin-left: 15px;
+    margin-left: 40px;
   }
   .footer {
     display: inline;
@@ -1242,6 +1242,12 @@ textarea {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .holiday__search__button {
+    margin-left: 40px;
   }
 }
 /*# sourceMappingURL=main.css.map */

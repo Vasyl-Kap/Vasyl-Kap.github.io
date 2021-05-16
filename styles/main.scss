@@ -657,7 +657,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
     .holiday {
         &__search {
             &__button {
@@ -759,7 +759,7 @@
         }
     }
     .holiday__search__button {
-        margin-left: 15px;
+        margin-left: 40px;
     }
 
     .footer {
@@ -791,5 +791,11 @@
                 justify-content: center;
             }
         }
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .holiday__search__button {
+        margin-left: 40px;
     }
 }
